@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: Helvetica;
+}
+
+h1{
+    color: #C2CAE2;
+    font-family: 'Audiowide';
+    font-size: 59px;
+    margin-top: 10vh;
+}
+
+h3{
+    color: #C2CAE2;
+    font-size: 43px;
+}
+
+p{
+    color: #ccd0cd;
+    font-size: 29px;
+}
+
+.info{
+    margin-top: 2vh;
+    display: flex;
+    align-items: center;
+}
+
+img{
+    height: auto;
+    width: 420px;
+    margin-left: 10%;
+    margin-bottom: 12px;
+}
+
+.cont{
+    position: fixed;
+    right: 10%;
+    left: 55%;
+}
+
+.cont p{
+    text-align: justify;
+    text-justify: newspaper;
+}
+
+i{
+    font-size: 32px;
+    color: #C2CAE2;
+    position: fixed;
+    bottom: 3%;
+    left: 3%;
+    cursor: pointer;
+}

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: Helvetica;
+}
+
+main{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: azure;
+}
+
+section.img{
+    background-color: #5E90B5;
+    align-items: center;
+    position: fixed;
+    right: 62%;
+    left: 0;
+    height: 100%;
+}
+
+img{
+    border-radius: 50%;
+    width: 20rem;
+    object-fit: cover;
+}
+
+img#p1{
+    position: fixed;
+    top: 8.1vh;
+    left: 50vh;
+    width: 25rem;
+
+}
+img#p2{
+    position: fixed;
+    top: 30vh;
+    left: 25vh;
+}
+img#p3{
+    position: fixed;
+    top: 50vh;
+    left: 55vh;
+}
+
+
+section.text{
+    align-items: center;
+    position: fixed;
+    right: 5%;
+    left: 60%;
+}
+
+.text h2{
+    font-size: 59px;
+    padding-bottom: 15px;
+    font-family: 'Audiowide';
+    color: #C2CAE2;
+}
+.text p{
+    font-size: 29px;
+    text-align: justify;
+    text-justify: newspaper;
+    font-family: Helvetica;
+    color: #CCD0CD;
+}
