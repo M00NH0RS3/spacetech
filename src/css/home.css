@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: Helvetica;
 }
 
-main{
+main {
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -14,12 +15,13 @@ main{
     position: relative;
     background-color: black;
 }
-main::before{
+
+main::before {
     content: '';
-    background-image: url('src/img/home-bg.png');
+    background-image: url('/src/img/home-bg.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top;    
+    background-position: top;
     position: absolute;
     top: 0;
     left: 0;
@@ -28,7 +30,7 @@ main::before{
     opacity: 0.45;
 }
 
-main h1{
+main h1 {
     font-size: 110px;
     text-align: center;
     position: relative;
@@ -36,7 +38,8 @@ main h1{
     font-family: 'Audiowide';
     font-weight: 400;
 }
-main h3{
+
+main h3 {
     font-size: 30px;
     text-align: center;
     position: relative;
