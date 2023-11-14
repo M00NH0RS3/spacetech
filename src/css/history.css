@@ -13,7 +13,6 @@ main{
     align-items: center;
     justify-content: center;
     position: relative;
-    color: azure;
 }
 
 section.img{
@@ -29,6 +28,12 @@ img{
     border-radius: 50%;
     width: 20rem;
     object-fit: cover;
+    transition: .4s;
+}
+
+img:hover{
+    transform: scale(1.5);
+    transition: .6s;
 }
 
 img#p1{

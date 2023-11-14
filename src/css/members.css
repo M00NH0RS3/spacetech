@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: Helvetica;
+}
+
+main h1{
+    margin-top: 10vh;
+    color: #C2CAE2;
+    font-size: 66px;
+    font-family: 'Audiowide';
+}
+
+.card-mem{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.membros{
+    /* background-color: #fff; */
+    height: 260px;
+    width: 180px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img, h5, br, p{
+    background-color: transparent;
+}
+
+img{
+    border-radius: 50%;
+    height: 160px;
+    width: 160px;
+    object-fit: cover;
+}
+
+h5{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: #C2CAE2;
+    font-size: 13px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+p{
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #CCD0CD;
+    font-weight: bold;
+}
