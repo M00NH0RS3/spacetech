@@ -56,3 +56,7 @@ i{
     right: 3%;
     cursor: pointer;
 }
+
+i:hover{
+    scale: 1.2;
+}
