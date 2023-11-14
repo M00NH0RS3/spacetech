@@ -56,6 +56,14 @@ i{
 img{
     position: fixed;
     border-radius: 50%;
+    transition: .4s;
+    
+}
+
+img:hover{
+    transform: scale(1.5);
+    transition: .6s;
+    z-index: 1;
 }
 
 #img1{

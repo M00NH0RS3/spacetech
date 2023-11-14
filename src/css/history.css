@@ -34,6 +34,7 @@ img{
 img:hover{
     transform: scale(1.5);
     transition: .6s;
+    z-index: 1;
 }
 
 img#p1{
@@ -60,6 +61,8 @@ section.text{
     position: fixed;
     right: 5%;
     left: 60%;
+    background-color: transparent;
+
 }
 
 .text h2{
@@ -67,6 +70,8 @@ section.text{
     padding-bottom: 15px;
     font-family: 'Audiowide';
     color: #C2CAE2;
+    background-color: transparent;
+
 }
 .text p{
     font-size: 29px;
@@ -74,4 +79,11 @@ section.text{
     text-justify: newspaper;
     font-family: Helvetica;
     color: #CCD0CD;
+    background-color: transparent;
+
+}
+
+center{
+    background-color: transparent;
+
 }
