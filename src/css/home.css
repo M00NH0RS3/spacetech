@@ -18,7 +18,7 @@ main {
 
 main::before {
     content: '';
-    background-image: url('/src/img/home-bg.png');
+    background-image: url('../img/home-bg.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;

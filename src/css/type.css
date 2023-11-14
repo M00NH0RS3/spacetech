@@ -86,7 +86,7 @@ div{
 }
 
 .f1{
-    background-image: url(../src/img/tipos/artificial-satellites.png);
+    background-image: url(../img/tipos/artificial-satellites.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -94,7 +94,7 @@ div{
     opacity: .35;
 }
 .f2{
-    background-image: url(../src/img/tipos/space-probes.png);
+    background-image: url(../img/tipos/space-probes.png);
     background-position: center;
     background-size: cover;
     opacity: .35;
@@ -102,7 +102,7 @@ div{
     content: '';
 }
 .f3{
-    background-image: url(../src/img/tipos/telescopes.png);
+    background-image: url(../img/tipos/telescopes.png);
     background-position: center;
     background-size: cover;
     opacity: .35;
@@ -110,7 +110,7 @@ div{
     content: '';
 }
 .f4{
-    background-image: url(../src/img/tipos/manned-spacecrafts.png);
+    background-image: url(../img/tipos/manned-spacecrafts.png);
     background-position: center;
     background-size: cover;
     opacity: .35;
@@ -118,7 +118,7 @@ div{
     content: '';
 }
 .f5{
-    background-image: url(../src/img/tipos/space-stations.png);
+    background-image: url(../img/tipos/space-stations.png);
     background-position: center;
     background-size: cover;
     opacity: .35;
@@ -126,7 +126,7 @@ div{
     content: '';
 }
 .f6{
-    background-image: url(../src/img/tipos/exploration-robots.png);
+    background-image: url(../img/tipos/exploration-robots.png);
     background-position: center;
     background-size: cover;
     opacity: .35;
