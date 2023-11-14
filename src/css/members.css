@@ -16,7 +16,7 @@ main h1{
 
 .card-mem{
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(6, 1fr);
 }
 
 .membros{
@@ -55,4 +55,14 @@ p{
     text-transform: uppercase;
     color: #CCD0CD;
     font-weight: bold;
+}
+
+.logo{
+    height: 120px;
+    width: auto;
+    object-fit: cover;
+    border-radius: 0%;
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
 }
