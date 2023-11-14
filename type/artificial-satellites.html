@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -16,7 +16,7 @@
 
 <body>
     <nav>
-        <i class="fa-solid fa-circle-arrow-left"></i>
+        <i class="fa-solid fa-circle-arrow-left" onclick="voltar()"></i>
     </nav>
     <main>
         <center>
@@ -57,10 +57,15 @@
                 </div>
             </section>
             <section class="imagem">
-                <img src="">
-                <img src="">
+                <img id="img1" src="/src/img/tipos/sub-tipos/satel-1.png">
+                <img id="img2" src="/src/img/tipos/sub-tipos/satel-2.png">
             </section>
         </section>
+        <script>
+            function voltar() {
+                window.location = "../type.html";
+            }
+        </script>
 </body>
 
 </html>

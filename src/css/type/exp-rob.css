@@ -72,3 +72,9 @@ img{
     width: 250px;
     height: 250px;
 }
+
+ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
