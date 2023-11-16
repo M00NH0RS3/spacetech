@@ -31,12 +31,6 @@ img{
     transition: .4s;
 }
 
-img:hover{
-    transform: scale(1.5);
-    transition: .6s;
-    z-index: 1;
-}
-
 img#p1{
     position: fixed;
     top: 8.1vh;
